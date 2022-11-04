@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="flex space-x-4 min-h-max">
+    <div className="flex space-x-4 min-h-max mx-10 mb-10">
       <div className="p-3 border-2 rounded-full border-red-400">
         <FaInstagram className="text-red-400" />
       </div>

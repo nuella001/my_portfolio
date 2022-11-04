@@ -6,11 +6,11 @@ import { SlDiamond } from "react-icons/sl";
 
 const Hero = () => {
   return (
-    <div className='flex mt-20 space-x-10 text-white'>
-        <div className="small">
-            <small className='text-xs'>SPEED UP  COMMUNICATIONS</small>
-            <h1 className='font-bold text-4xl md:text-6xl'>BEST UI/UX DESIGNER</h1>
-            <p>AU Studio is the best place for everything
+    <div className='flex mt-40 space-x-10 '>
+        <div className="hero-txt lg:w-1/3 justify-start ml-10">
+            <p className=' text-left text-xs'>SPEED UP   <br /> COMMUNICATIONS</p>
+            <h1 className=' text-left mt-4 lg:tracking-wide leading-6 font-bold text-4xl md:text-6xl md:max-w-md'>BEST UI/UX DESIGNER</h1>
+            <p className='my-5 text-left'>AU Studio is the best place for everything
                 related to a project, to-do-list or communication
             </p>
           <div className="icons">
