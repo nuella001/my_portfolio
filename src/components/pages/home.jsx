@@ -1,14 +1,14 @@
 import React from "react";
 import Navbar from "../Navbar";
-import Hero from "../hero";
-import Blogs from "./blogs";
+import Hero from "../Hero";
+import Footer from "../Footer"
 
 const Home = () => {
   return (
     <div>
       <Navbar />
       <Hero />
-      <Blogs/>
+      <Footer/>
     </div>
   );
 };
