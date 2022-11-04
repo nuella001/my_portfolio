@@ -7,7 +7,7 @@ import { SlDiamond } from "react-icons/sl";
 const Hero = () => {
   return (
     <div className='flex mt-40 space-x-10 '>
-        <div className="hero-txt lg:w-1/3 justify-start ml-10">
+        <div className="hero-txt w-1/3 justify-start ml-10">
             <p className=' text-left text-xs'>SPEED UP   <br /> COMMUNICATIONS</p>
             <h1 className=' text-left mt-4 lg:tracking-wide leading-6 font-bold text-4xl md:text-6xl md:max-w-md'>BEST UI/UX DESIGNER</h1>
             <p className='my-5 text-left'>AU Studio is the best place for everything
@@ -23,7 +23,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className='h-min w-96'>
+        <div className='h-min w-2/3'>
             <img src={girl} alt="" className='w-full h-full bg-cover'/>
         </div>
     </div>
