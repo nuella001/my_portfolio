@@ -9,8 +9,8 @@ const Footer = () => {
       <div className="p-3 border-2 rounded-full border-red-400">
         <FaInstagram className="text-red-400" />
       </div>
-      <div className="p-3 border-2 rounded-full border-blue-700">
-        <FaTwitter className="text-blue-700" />
+      <div className="p-3 border-2 rounded-full border-twitter-blue">
+        <FaTwitter className="text-twitter-blue" />
       </div>
       <div className="p-3 border-2 rounded-full border-green-600">
         <FaFacebookF className="text-green-600" />
